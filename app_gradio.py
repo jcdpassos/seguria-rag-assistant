@@ -71,4 +71,4 @@ demo = gr.ChatInterface(
 )
 
 # Executa o servidor na porta que já testamos e funcionou
-demo.launch(server_name="0.0.0.0", server_port=8505)
+demo.launch(server_name="0.0.0.0", server_port=8505, inbrowser=True)
